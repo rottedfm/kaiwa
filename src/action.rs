@@ -12,4 +12,12 @@ pub enum Action {
     ClearScreen,
     Error(String),
     Help,
+    PromptNormalMode,
+    PromptVisualMode,
+    PromptInsertMode,
+    PromptMoveCursorUp,
+    PromptMoveCursorDown,
+    PromptMoveCursorLeft,
+    PromptMoveCursorRight,
+    PromptInputText(String),
 }

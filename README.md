@@ -6,14 +6,15 @@ Used the ratatui cargo generate template ( show commands to install on screen )
 
 Explain the template
 
-Started working on Ui Rendering 
+Started working on prompt.rs 
 
+# Day 2 Notes
 
 
 ## Step 1 Setup 
 - [X] README
 - [ ] Crate Docs
-- [ ] TODO
+- [X] TODO
 
 ## Step 2 Basic UI
 - [ ] Text Input Component
@@ -37,16 +38,20 @@ Started working on Ui Rendering
 - [ ] History Normal Mode
 - [ ] History Preview Normal Mode
 
-### Step 4 Clean Up
+## Step 4 Clean Up
 - [ ] Documentation
 - [ ] New README.md
 - [ ] Error Handling
 - [ ] Tests
 - [ ] Optimizations
 
-### Step 5 Publish
+## Step 5 Publish
 - [ ] Reddit 
 - [ ] Twitter
 - [ ] Youtube
 - [ ] Crates.io
 
+### Refences
+- [ratatui](https://ratatui.rs/)
+- [ratatui-template](https://github.com/ratatui/templates/tree/main/component)
+- [clap](https://docs.rs/clap/latest/clap/)
